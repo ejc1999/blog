@@ -18,6 +18,8 @@
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Blog Posts <span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
                     <li><a href="{{ url_for('posts', name='hello_world') }}">Hello World</a></li>
+                    <li><a href="{{ url_for('posts', name='Post1') }}">Post#1</a></li>
+                    <li><a href="{{ url_for('posts', name='Post2') }}">Post #2</a></li>
                   </ul>
               </li>
             </ul>
@@ -26,7 +28,7 @@
         <div class="jumbotron text-center">
             <div class="container">
                 <h1>Ella's Blog</h1>
-                <p>This is a skeleton blog site written in Python (using Flask).</p>
+                <p>This is my blog, created using python. It might show how I develop in computer science</p>
             </div>
         </div>
         <div class="container">
@@ -36,6 +38,7 @@
                     <ul>
                         <li><a href="{{ url_for('posts', name='hello_world') }}">Hello World</a></li>
                         <li><a href="{{ url_for('posts', name='Post1') }}">Post #1</a></li>
+                        <li><a href="{{ url_for('posts', name='Post2') }}">Post #2</a></li>
                     </ul>
             </div>
           </div>
