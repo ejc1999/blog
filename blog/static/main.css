@@ -26,3 +26,6 @@
       max-width: 100%; }
 body{
   background: #d8fffc;
+container{
+  position:relative;
+}
